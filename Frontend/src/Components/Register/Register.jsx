@@ -15,8 +15,8 @@ function Register() {
 
       console.log('userObj: ', userObj);
       // Post Request
-     let res = await fetch('http://localhost:4000/user-api/users', {
-      // let res = await fetch('https://ecommerce-backend-fswd.vercel.app/user-api/users', {
+     //let res = await fetch('http://localhost:4000/user-api/users', {
+      let res = await fetch('https://ecom-app-sigma.vercel.app/user-api/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

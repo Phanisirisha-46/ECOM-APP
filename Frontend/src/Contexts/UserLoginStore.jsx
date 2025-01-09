@@ -11,8 +11,8 @@ function UserLoginStore({ children }) {
     async function handleLogin(userObj) {
         try {
             //  POST Request
-            let response = await fetch('http://localhost:4000/user-api/users/login', {
-            // let response = await fetch('https://ecommerce-backend-fswd.vercel.app/user-api/users/login', {
+            // let response = await fetch('http://localhost:4000/user-api/users/login', {
+            let response = await fetch('https://ecom-app-sigma.vercel.app/user-api/users/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
